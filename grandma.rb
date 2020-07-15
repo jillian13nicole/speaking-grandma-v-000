@@ -5,11 +5,11 @@
 # unless you shout it (type in all capitals).
 def speak_to_grandma(phrase)
 
-  if  speak_to_grandma == phrase.lowercase
+  if  speak_to_grandma == phrase.lowercase()
     return "HUH?! SPEAK UP, SONNY!"
   elseif == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN"
-  else == phrase.upcase
+  else == phrase.upcase()
     return "NO, NOT SINCE 1938!"
   end
 end
