@@ -5,12 +5,12 @@
 # unless you shout it (type in all capitals).
 speak_to_grandma = gets.chomp
 
-if  speak_to_grandma == .lowercase
+if  speak_to_grandma == speak_to_grandma.lowercase
   puts "HUH?! SPEAK UP, SONNY!"
-elseif == phrase.upcase
-  puts "NO, NOT SINCE 1938!"
-else == "I LOVE YOU GRANDMA!"
+elseif == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU TOO PUMPKIN"
+else == speak_to_grandma.upcase
+  puts "NO, NOT SINCE 1938!"
 
 
 
