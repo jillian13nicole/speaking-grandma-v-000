@@ -3,14 +3,15 @@
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-def speak_to_grandma = gets.chomp
+def speak_to_grandma(phrase)
 
-if  speak_to_grandma == speak_to_grandma.lowercase
-  puts "HUH?! SPEAK UP, SONNY!"
-elseif == "I LOVE YOU GRANDMA!"
-  puts "I LOVE YOU TOO PUMPKIN"
-else == speak_to_grandma.upcase
-  puts "NO, NOT SINCE 1938!"
+  if  speak_to_grandma == phrase.lowercase
+    return "HUH?! SPEAK UP, SONNY!"
+  elseif == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN"
+  else == phrase.upcase
+    return "NO, NOT SINCE 1938!"
+  end
 end
 
 
