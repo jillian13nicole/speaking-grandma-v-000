@@ -3,7 +3,7 @@
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
-speak_to_grandma = gets.chomp
+def speak_to_grandma = gets.chomp
 
 if  speak_to_grandma == speak_to_grandma.lowercase
   puts "HUH?! SPEAK UP, SONNY!"
